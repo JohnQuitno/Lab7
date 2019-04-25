@@ -1,0 +1,12 @@
+1. isEmpty always returns true regardless of the number of elements in the linked list
+2. removeBack does not alter the linked list.
+3. removeBack does not change the size of the list.
+3. removeFront does not alter the linked list.
+4. removeFront does not change the size of the list.
+5. addBack adds to the front of the list instead of the back.
+6. The destructor doesn't work properly and there are memory errors.
+
+  The methods above seem to be the only ones that are broken. The fact
+  that these are broken do affect some of the other methods though. For
+  example, it is likely that the destructor doesn't work because isEmpty
+  always returns true.
